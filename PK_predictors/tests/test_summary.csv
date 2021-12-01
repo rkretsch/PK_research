@@ -1,0 +1,9 @@
+predictor,evaluation,PPV,sensitivity,F1_score
+structure,all_bps,1.0,1.0,1.0
+structure,PKonly_bps,1.0,1.0,1.0
+structure,noPK_bps,1.0,1.0,1.0
+structure,is_PK,1.0,1.0,1.0
+pknots_structure,all_bps,0.5230769230769231,0.5230769230769231,0.5230769230769231
+pknots_structure,PKonly_bps,0.0,0.0,0.0
+pknots_structure,noPK_bps,0.2153846153846154,0.7777777777777778,0.3373493975903615
+pknots_structure,is_PK,0.0,0.0,0.0

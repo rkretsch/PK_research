@@ -1,0 +1,9 @@
+predictor,evaluation,PPV,sensitivity,F1_score
+structure,all_bps,1.0,1.0,1.0
+structure,PKonly_bps,1.0,1.0,1.0
+structure,noPK_bps,1.0,1.0,1.0
+structure,is_PK,1.0,1.0,1.0
+e2efold_structure,all_bps,0.0,0.0,0.0
+e2efold_structure,PKonly_bps,0.0,0.0,0.0
+e2efold_structure,noPK_bps,0.0,0.0,0.0
+e2efold_structure,is_PK,0.0,0.0,0.0

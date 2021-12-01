@@ -1,0 +1,4 @@
+Testing RNAalifold (equilibrium probabilities):
+...testing Partition function (centroid, MEA):		 [ OK ]
+...testing Partition function (base pair probabilities):		 [ OK ]
+PASS RNAalifold/partfunc.sh (exit status: 0)

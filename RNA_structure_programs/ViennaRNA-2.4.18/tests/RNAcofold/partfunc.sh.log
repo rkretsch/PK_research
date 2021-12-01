@@ -1,0 +1,8 @@
+Testing RNAcofold (equilibrium probabilities):
+...testing Partition function (centroid, MEA):		 [ OK ]
+...testing Partition function (centroid, dimers, monomers):		 [ OK ]
+...testing Partition function (base pair probabilities - Hetero-dimer):		 [ OK ]
+...testing Partition function (base pair probabilities - Homo-dimers):		 [ OK ]
+...testing Partition function (base pair probabilities - Monomers):		 [ OK ]
+...testing Partition function (concentrations):		 [ OK ]
+PASS RNAcofold/partfunc.sh (exit status: 0)

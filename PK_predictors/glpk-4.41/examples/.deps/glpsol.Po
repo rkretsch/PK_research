@@ -1,0 +1,11 @@
+glpsol.o: glpsol.c /usr/include/stdc-predef.h ../include/glpk.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+../include/glpk.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:

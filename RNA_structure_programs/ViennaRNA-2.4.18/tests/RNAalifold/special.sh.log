@@ -1,0 +1,8 @@
+Testing RNAalifold (special features):
+...testing G-Quadruplex feature (MFE, centroid, MEA):		 [ OK ]
+...testing Parallel processing of input data:		 [ OK ]
+...testing SHAPE probing data (070313_ecoli_cdiff_16S_clustalw.aln) Deigan et al. 2009 method:		WARNING: Input sequence 2 differs from sequence provided via SHAPE file!
+WARNING: Input sequence 1 differs from sequence provided via SHAPE file!
+ [ OK ]
+...testing MFE/PF prediction (RNAalifold -p0 --circ):		 [ OK ]
+PASS RNAalifold/special.sh (exit status: 0)

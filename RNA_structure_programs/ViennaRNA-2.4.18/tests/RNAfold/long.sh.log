@@ -1,0 +1,4 @@
+Testing RNAfold (longer sequences):
+...testing MFE prediction (.seq file):		 [ OK ]
+...testing MFE prediction (.fasta file):		 [ OK ]
+PASS RNAfold/long.sh (exit status: 0)
