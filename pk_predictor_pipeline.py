@@ -20,7 +20,7 @@ def get_struct(seq, predictor):
     dotbracket = pk_predict(seq, predictor)
     return dotbracket
 
-def get_pseudoknots(seq_filename, step, window, predictor, output_folder):
+def get_pseudoknots(seq_filename, step, window, predictor):
     seq = get_seq(seq_filename)
     # add in function to replace T with U
     RNA_seq = seq.replace("T", "U")
@@ -30,6 +30,6 @@ def get_pseudoknots(seq_filename, step, window, predictor, output_folder):
         dotbracket = get_struct(seq, predictor)
         print(dotbracket)
         if is_PK(dotbracket):
-            PK_list.append(coord, coord+window, seq, dotbracket)
+            PK_list.append([coord, coord+window, seq, dotbracket])
     df = pd.DataFrame(PK_list,columns=["start","end","sequence", "struct"])
-    df.to_csv('%s/pk_predictor_output.csv' % output_folder)
+    df.to_csv('pk_predictor_output.csv')
