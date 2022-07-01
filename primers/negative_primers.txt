@@ -1,0 +1,49 @@
+Primerize Result
+
+INPUT
+=====
+TTCTAATACGACTCACTATTCAAAATCATGTGACATTTCAATACAACTGTCAGTCTGCCCGTGGAAAGTTCCGTACGATTCCCGCTAACGTAATTTACTGTGATCTGACAATCTGGTGATTTGCCTAGATCGATGAATCA
+#
+MIN_TM: 60.0
+NUM_PRIMERS: auto (unspecified)
+MAX_LENGTH: 60
+MIN_LENGTH: 15
+T7_CHECK: feature disabled (check the option to enable). No checking was performed.
+
+
+OUTPUT
+======
+12334444545342343334455434564444545434445445343445456443434344333442343434456544543422343344444434345455455456444453234556434234445456344555
+TTCTAATACGACTCACTATTCAAAATCATGTGACATTTCAATACAACTGTCAGTCTGCCCGTGGAAAGTTCCGTACGATTCCCGCTAACGTAATTTACTGTGATCTGACAATCTGGTGATTTGCCTAGATCGATGAATCA
+34445454343243334554436544445454434454454343454654443434344333443243434655445443432243344444434354554554654444543325654434324454654345554321
+
+TTCTAATACGACTCACTATTCAAAATCATGTGACATTTCAATACAACTGTCAGTCTGCCCGTGGAAAGTTCCGTACGATTCCCGCTAACGTAATTTACTGTGATCTGACAATCTGGTGATTTGCCTAGATCGATGAATCA
+                                                                                                                                             
+TTCTAATACGACTCACTATTCAAAATCATGTGACATTTCAATACAACTGTCAGTCTGCCC-> 1                                                                            
+                                           ||||||||||||||||| 60.1                                                                           
+                                       2 <-GTTGACAGTCAGACGGGCACCTTTCAAGGCATGCTAAGGGCG                                                       
+                                                                      ||||||||||||||| 60.9                                                  
+                                                                      CCGTACGATTCCCGCTAACGTAATTTACTGTGATCTGACAATCTGGT-> 3                   
+                                                                                             |||||||||||||||||||||||| 61.4                  
+                                                                                         4 <-AAATGACACTAGACTGTTAGACCACTAAACGGATCTAGCTACTTAGT
+                                                                                                                                             
+AAGATTATGCTGAGTGATAAGTTTTAGTACACTGTAAAGTTATGTTGACAGTCAGACGGGCACCTTTCAAGGCATGCTAAGGGCGATTGCATTAAATGACACTAGACTGTTAGACCACTAAACGGATCTAGCTACTTAGT
+
+
+PRIMERS             LENGTH    	SEQUENCE
+negative-1 F        60        	TTCTAATACGACTCACTATTCAAAATCATGTGACATTTCAATACAACTGTCAGTCTGCCC
+negative-2 R        42        	GCGGGAATCGTACGGAACTTTCCACGGGCAGACTGACAGTTG
+negative-3 F        47        	CCGTACGATTCCCGCTAACGTAATTTACTGTGATCTGACAATCTGGT
+negative-4 R        47        	TGATTCATCGATCTAGGCAAATCACCAGATTGTCAGATCACAGTAAA
+
+
+#
+
+------/* IDT USER: for primer ordering, copy and paste to Bulk Input */------
+------/* START */------
+negative-1F	TTCTAATACGACTCACTATTCAAAATCATGTGACATTTCAATACAACTGTCAGTCTGCCC		25nm	STD
+negative-2R	GCGGGAATCGTACGGAACTTTCCACGGGCAGACTGACAGTTG		25nm	STD
+negative-3F	CCGTACGATTCCCGCTAACGTAATTTACTGTGATCTGACAATCTGGT		25nm	STD
+negative-4R	TGATTCATCGATCTAGGCAAATCACCAGATTGTCAGATCACAGTAAA		25nm	STD
+------/* END */------
+------/* NOTE: use "Lab Ready" for "Normalization" */------
